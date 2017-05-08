@@ -13,13 +13,14 @@ text-align: center;}
 }
 
 h2 {
-  color: black;
-  text-align: center;}
+  text-align: center;
+  color: black;}
 
 h3 {text-align: center;}
 
 .mainpage{
   text-align: center;
+  background-color: #7aa2c1;
 }
 
 .bloglink{
