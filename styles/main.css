@@ -1,48 +1,58 @@
-body{
-  background-color: #a5c7e2;
-font-family:Helvetica;}
+body {
+    background-color: #a5c7e2;
+    font-family: Helvetica;
+}
 
-h1{color: black;
-font-size: 40px;
-text-align: center;}
 
-#boat{
-  background-image: url("../boat.png");
-  height:20px;
-  width: 100%;
+h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+#boat {
+    background-image: url("../boat.png");
+    height: 20px;
+    width: 100%;
 }
 
 h2 {
-  text-align: center;
-  color: black;}
-
-h3 {text-align: center;}
-
-.mainpage{
-  text-align: center;
-  background-color: #7aa2c1;
+    text-align: center;
+    color: black;
 }
 
-.bloglink{
-  text-align: center;
-  color: black;
+h3 {
+    text-align: center;
 }
+
+.mainpage {
+    text-align: center;
+    background-color: #7aa2c1;
+}
+
+.bloglink {
+    text-align: center;
+    color: black;
+}
+
 p {
-  color: #f7e8c8;
-  padding: 10px;
+    color: #f7e8c8;
+    padding: 10px;
 }
 
-.blogone{
-  color: #f7e8c8;
-  padding: 10px;
+.blogone {
+    color: #f7e8c8;
+    padding: 10px;
 }
+
 .blogone p {
-  background-color: #7aa2c1;
+    background-color: #7aa2c1;
 }
 
-.blogtwo{
-  padding: 10px;
+.blogtwo {
+    padding: 10px;
 }
+
 .blogtwo p {
-  background-color: #7aa2c1;
+    background-color: #7aa2c1;
 }
