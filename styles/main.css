@@ -25,6 +25,7 @@ h1 {
     padding: 0;
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
+    height: 30px;
 }
 
 .boat {
@@ -87,4 +88,19 @@ p {
 
 .blogtwo p {
     background-color: #305470;
+}
+.question1 p{
+  background-color: #305470;
+}
+.question2 p{
+  background-color: #305470;
+}
+.question3 p{
+  background-color: #305470;
+}
+.question1 h4{padding-left: 10px
+}
+.question2 h4{padding-left: 10px
+}
+.question3 h4{padding-left: 10px
 }
