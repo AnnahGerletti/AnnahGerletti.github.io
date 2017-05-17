@@ -2,6 +2,7 @@ html{
   max-width: 960px;
   font-family: 'Cabin', sans-serif;
 }
+/*Index page*/
 .col-12{
   text-align: center;
   color: #051d44;
@@ -16,12 +17,23 @@ html{
   text-indent: 1em;
   width: 60%;
   font-size: 2em;
-
-  /*anything smaller than 750px do these rules*/
-   @media only screen and (max-width: 750px) {
-    font-size: 1.4em;
-  }
 }
+  /*anything smaller than 600px do these rules*/
+ @media (max-width: 600px) {
+   .col-4{
+       font-size: 1.4em;}
+  }
+     
 .blog_button{
   font: sans-serif;
+}
+
+/*blog posts*/
+header{
+  text-align: center;
+  color: #051d44;
+  padding: 2em;
+}
+.text{
+  margin: 2em;
 }
