@@ -1,0 +1,27 @@
+html{
+  max-width: 960px;
+  font-family: 'Cabin', sans-serif;
+}
+.col-12{
+  text-align: center;
+  color: #051d44;
+  padding: 2em;
+}
+.offset-by-three{
+  margin-left: 15%;
+}
+.col-4{
+  background-color: #3d4044;
+  color: white;
+  text-indent: 1em;
+  width: 60%;
+  font-size: 2em;
+
+  /*anything smaller than 750px do these rules*/
+   @media only screen and (max-width: 750px) {
+    font-size: 1.4em;
+  }
+}
+.blog_button{
+  font: sans-serif;
+}
