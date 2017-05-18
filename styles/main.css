@@ -1,38 +1,21 @@
 html{
   max-width: 960px;
-  font-family: 'Cabin', sans-serif;
 }
-/*Index page*/
-.col-12{
-  text-align: center;
-  color: #051d44;
-  margin-bottom: 0;
+
+.name{
+  color: blue;
 }
+.button{
+  color: blue;
+
+}
+
+.week-1 h5{
+  align-items: center;
+}
+
+/* when adding styles reference the skeleton css code. THere are already fonts saved in the framework and styling. If you add new styles to you main.css they will overwrite the skeleton framwork.*/
+/*in css dont need to specify colums to make style changes.  divide the class name by space*/
 .offset-by-three{
   margin-left: 15%;
-}
-.col-4{
-  background-color: #5d687c;
-  color: white;
-  text-indent: 2em;
-  width: 60%;
-  font-size: 2em;
-  border-radius: 60%
-}
-  /*anything smaller than 600px do these rules*/
- @media (max-width: 600px) {
-   .col-4{
-       font-size: 1.4em;}
-  }
-
-.row{
-  margin: 2em;
-}
-
-/*blog posts*/
-.blog_button a{
-  color: #051d44;
-}
-.text{
-  margin: 2em;
 }
