@@ -1,12 +1,13 @@
-html{
-  max-width: 960px;
+.button{
+  border-radius: 100px
 }
+
 
 .name{
   color: blue;
 }
 .button{
-  color: blue;
+  color: black;
 
 }
 
