@@ -7,9 +7,15 @@ the matgins clockwise top, rt, bot, lt. the text align-justify spreads the text 
 
 body{
   font-size: 200%;
-  margin: 0 10em 0 10em;
   text-align: justify;
 }
+/* Larger than tablet */
+@media (min-width: 750px) {
+  body{
+    margin: 0 10em 0 10em;
+  }
+}
+
 
 
 .header{
