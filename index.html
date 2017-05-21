@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Skeleton Blog site</title>
-      <meta charset="UTF-8">
-      <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0"/>
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-      <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-      <script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script>
-      <link rel="stylesheet" href="styles/main.css">
+      <!---Basic Page Needs---------------->
+        <title>Skeleton Blog site</title>
+        <meta charset="utf-8">
+      <!---mobile specific metas--------->
+        <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0"/>
+      <!--Font----------------------------->
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+      <!---css ----------------------------->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+      <!--scripts --->
+        <script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script>
    </head>
 
    <body>
-     <header class="section header u-max-full-width">
+     <header class="section u-max-full-width header">
        <div class="container">
          <div class="row">
            <p>head links</p>
@@ -26,7 +31,7 @@
         <div class="container"><!--conatiner, row columns, columns have to add to 12-->
           <div class="row">
             <div class="twelve columns name">
-                <h1>Bare Bones Blog</h1>
+                <h1 class="title">Bare Bones Blog</h1>
             </div>
           </div>
       </div>
@@ -57,12 +62,12 @@
             </div>
               <div class="row">
                 <div class="u-full-width">
-                  <div class="three columns">
+                  <div class="four columns">
                     <div class="u-float-left">
                       <a class="button" href="blog/c1-reflection-blog.html">Reflection</a>
                     </div>
                   </div>
-                  <div class="three columns">
+                  <div class="four columns">
                     <div class="u-float-left">
                       <a class="button" href="blog/c1-time-and-habits-blog.html">Time Management</a>
                     </div>
@@ -81,19 +86,19 @@
                </div>
                  <div class="row">
                    <div class="u-full-width">
-                     <div class="three columns">
+                     <div class="four columns">
                        <div class="u-float-left">
-                         <a class="button" href="blog/c1-reflection-blog.html">Mindfulness</a>
+                         <a class="button" href="blog/c2-emotional-intelligence.html">Mindfulness</a>
                        </div>
                      </div>
-                     <div class="three columns">
+                     <div class="four columns">
                        <div class="u-float-left">
-                         <a class="button" href="blog/c1-time-and-habits-blog.html">HTML/CSS/DOM P1</a>
+                         <a class="button" href="blog/t2-html-css-dom-p1.html">HTML/CSS/DOM P1</a>
                        </div>
                      </div>
-                       <div class="three columns">
+                       <div class="four columns">
                        <div class="u-float-left">
-                         <a class="button" href="blog/c1-time-and-habits-blog.html">HTML/CSS/DOM P2</a>
+                         <a class="button" href="blog/t2-html-css-dom-p2.html">HTML/CSS/DOM P2</a>
                        </div>
                      </div>
                    </div>
@@ -110,14 +115,14 @@
                   </div>
                     <div class="row">
                       <div class="u-full-width">
-                        <div class="three columns">
+                        <div class="four columns">
                           <div class="u-float-left">
-                            <a class="button" href="blog/c1-reflection-blog.html">Blog</a>
+                            <a class="button" href="blog/t3-design-to-web-blog.html">Responsive Design</a>
                           </div>
                         </div>
-                        <div class="three columns">
+                        <div class="four columns">
                           <div class="u-float-left">
-                            <a class="button" href="blog/c1-time-and-habits-blog.html">blog</a>
+                            <a class="button" href="blog/c3-meditation-process.html">Meditation</a>
                           </div>
                         </div>
                       </div>
@@ -126,11 +131,11 @@
                 </div>
                </div>
 
-
+    </div>
         <footer class="footer u-max-full-width"><!--can style the footer and header later in the css-->
           <div class="container">
             <div class="row">
-              <p>sample text</p>
+              <p class="footer">sample text</p>
             </div>
             <div class="row">
               <a href="#">link to FB</a>
@@ -140,7 +145,5 @@
           </div>
         </footer>
 
-
-    </div>
   </body>
 </html>

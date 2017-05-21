@@ -1,20 +1,38 @@
+html{
+  font-family: 'Cabin', sans-serif;
+}
+
+/* within body we have adjusted font size with make everything 200% more keeping everything in preportions. we have ajusted
+the matgins clockwise top, rt, bot, lt. the text align-justify spreads the text out makes even paragraphs.*/
+
+body{
+  font-size: 200%;
+  margin: 0 10em 0 10em;
+  text-align: justify;
+}
 
 
+.header{
+  background-color: #414751;
+}
+
+.title{
+  margin-top: 1.5em;
+}
 .button{
   border-radius: 100px
 }
 
-
 .name{
-  color: blue;
+  color: black;
 }
+
 .button{
   color: black;
-
 }
 
-.week-1 h5{
-  align-items: center;
+.blog-week{
+  margin-bottom: 1em;
 }
 
 /* when adding styles reference the skeleton css code. THere are already fonts saved in the framework and styling. If you add new styles to you main.css they will overwrite the skeleton framwork.*/
@@ -22,3 +40,10 @@
 .offset-by-three{
   margin-left: 15%;
 }
+
+.footer{
+  background-color: #414751;
+  margin-top: 6em;
+}
+
+/*--------blog posts----*/

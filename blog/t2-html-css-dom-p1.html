@@ -2,39 +2,62 @@
 <html>
 
 <head>
-    <title>Blogs (PAGE title) </title>
+  <!---Basic Page Needs---------------->
+    <title>Blogs</title>
     <meta charset="utf-8">
+  <!---mobile specific metas--------->
+    <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0"/>
+  <!--Font----------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <!---css ----------------------------->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <!--scripts --->
+    <script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script>
 </head>
 
 <body>
-  <header>
-    <h1>Looking under the hood Part 1</h1>
-    <h3>May 10, 2017</h3>
-  </header>
-<div class="subtitle">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Looking under the Hood P1</h1>
+        <h5> May 10, 2017</h5>
+      </div>
+    </div>
+  </div>
 
-  <h3>HTML, CSS, DOM</h3>
+<!--<div class="container">
+  <div class="row">
+      <h5>HTML, CSS, DOM</h5>
+  </div>
+</div>-->
+
+<div class="container blog">
+  <div class="row">
+    <div class="text">
+      <h3> Give an analogy to describe HTML, CSS and the DOM.</h3>
+
+       <h4>How would you describe it to your non-technical friend?</h4>
+        <p>These concepts can be described with a house analogy. HTML is the structure, walls rooms etc.CSS is how you styled your place, colors of walls type of carpet and so on. While DOM is how guests (aka browsers) engage with the space. It can also create floor plan or layout of the design of the house.
+        </p>
+
+      <h3>What is meant by boxifying design?</h3>
+        <p>Boxifying means to break up a layout into smaller divisions or ‘boxes’ to make working with them easier.
+        </p>
+
+      <h3>What is the box model?</h3>
+        <p>The box model is used when talking about design and layout. It describes how all elements have content, padding, boarders and margins.
+        </p>
+    </div>
+      <div class="bolg-button">
+          <a class="button" href="../index.html">Home</a>
+      </div>
+      <div class="blog-button">
+        <a class="button" href="wishlist.html">Wishlist</a>
+      </div>
+  </div>
 </div>
 
-<div class="text">
-  Can you think of an analogy to describe HTML, CSS and the DOM?How would you describe it to your non-technical friend?
-    <p>These concepts can be described with a house analogy. HTML is the structure, walls rooms etc.CSS is how you styled your place, colors of walls type of carpet and so on. While DOM is how guests (aka browsers) engage with the space. It can also create floor plan or layout of the design of the house.
-    </p>
-
-  What is meant by boxifying design?
-    <p>Boxifying means to break up a layout into smaller divisions or ‘boxes’ to make working with them easier.
-    </p>
-
-  What is the box model?
-    <p>The box model is used when talking about design and layout. It describes how all elements have content, padding, boarders and margins.
-    </p>
-</div>
-
-<div class="bloglink">
-  <a href="../index.html">Home</a><br>
-  <a href="wishlist.html">Wish List</a>
-</div>
 </body>
 </html>
