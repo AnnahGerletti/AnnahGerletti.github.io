@@ -43,9 +43,6 @@ body{
 
 /* when adding styles reference the skeleton css code. THere are already fonts saved in the framework and styling. If you add new styles to you main.css they will overwrite the skeleton framwork.*/
 /*in css dont need to specify colums to make style changes.  divide the class name by space*/
-.offset-by-three{
-  margin-left: 15%;
-}
 
 .footer{
   background-color: #414751;
