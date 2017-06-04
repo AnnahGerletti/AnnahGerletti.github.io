@@ -31,7 +31,7 @@ body{
   margin-top: 1.5em;
 }
 .button{
-  border-radius: 100px
+  border-radius: 100px;
 }
 
 .name{
@@ -39,8 +39,11 @@ body{
 }
 
 .button{
-  color: black;
+  color: orange;
 }
+/*.button{
+  align-content: center;
+}*/
 
 .blog-week{
   margin-bottom: 1em;
