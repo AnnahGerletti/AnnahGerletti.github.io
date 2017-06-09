@@ -23,6 +23,7 @@ body{
   float: right;
   z-index: -1;
 }*/
+/*-------------------Index page-------------*/
 
 .header{
   background-color: #414751;
@@ -49,9 +50,18 @@ h1{
   align-content: center;
 }*/
 
-.blog-week{
+/*.blog-week{
   margin-bottom: 1em;
+}don't think you do anything.*/
+/*---------------------T6 Blog posts-------------*/
+.headerText{/*I want to get the title closer to the line but what I have is not working */
+  margin: 0;
 }
+  h4{
+    margin-bottom:;
+  }
+
+
 
 /* when adding styles reference the skeleton css code. THere are already fonts saved in the framework and styling. If you add new styles to you main.css they will overwrite the skeleton framwork.*/
 /*in css dont need to specify colums to make style changes.  divide the class name by space*/
