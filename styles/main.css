@@ -3,7 +3,9 @@ html{/*skeleton blog*/
 }
 
 /* within body we have adjusted font size with make everything 200% more keeping everything in preportions. we have ajusted
-the matgins clockwise top, rt, bot, lt. the text align-justify spreads the text out makes even paragraphs.*/
+the margins clockwise top, rt, bot, lt. the text align-justify spreads the text out makes even paragraphs.
+
+need to add media query for tablet size ajustment*/
 
 body{
   font-size: 200%;
@@ -19,10 +21,6 @@ body{
   }
 }
 
-/*.skeleton{
-  float: right;
-  z-index: -1;
-}*/
 /*-------------------Index page-------------*/
 
 .header{
