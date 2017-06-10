@@ -1,0 +1,14 @@
+/*--------------cover page--------------*/
+.spacedout{
+  letter-spacing: 0.3em;
+}
+.hero{
+  background-color: lightgreen;
+}
+.row{
+  position: inherit;
+}
+
+.blog{
+  background-color: lightblue;
+}
