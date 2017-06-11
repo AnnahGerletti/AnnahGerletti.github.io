@@ -1,0 +1,25 @@
+
+
+
+.spacedout{
+  letter-spacing: 0.3em;
+  font-weight: bold;
+}
+
+.headings{
+  position: relative;
+  text-align: left;
+  top: 3em;
+  color: white;
+}
+
+.coverImage{
+  height: 25em;
+  background-size: cover;
+  background-image: url("../images/barcelona5.png");
+}
+
+.icon {
+  height:1.5em;
+  width:1.5em;
+}

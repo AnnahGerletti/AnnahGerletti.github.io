@@ -1,14 +1,73 @@
 /*--------------cover page--------------*/
 .spacedout{
   letter-spacing: 0.3em;
-}
-.hero{
-  background-color: lightgreen;
-}
-.row{
-  position: inherit;
+  font-weight: bold;
 }
 
+.headings{
+  position: relative;
+  text-align: left;
+  top: 3em;
+  color: white;
+}
+
+.hero{
+  height: 25em;
+  background-size: cover;
+  background-image: url("../images/barcelona4.png");
+}
+
+#hiddenRow{/*created a hidden div that lays ontop of the hero div. # insead of . because hiddenContainer is an id*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;/* hides the div make invisible*/
+}
+
+.fadein{ /*fade in annimation when button is clicked*/
+  animation-name: fadeIn;
+  animation-duration: 1.3s;
+  opacity:1;
+}
+
+.fadeout{ /*fade in annimation when button is clicked*/
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  opacity: 0;
+}
+
+/*-------*/
 .blog{
-  background-color: lightblue;
+
+  height: 25em;
+  background-size: cover;
+  background-image: url("../images/barcelona5.png");
+}
+
+
+/*------*/
+.projects{
+
+  height: 25em;
+  background-size: cover;
+  background-image: url("../images/barcelona2.png");
+}
+
+
+@keyframes fadeIn {/*keyframe needed for animmation*/
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
