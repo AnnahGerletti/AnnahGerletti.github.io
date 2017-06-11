@@ -17,6 +17,15 @@
   background-image: url("../images/barcelona4.png");
 }
 
+.button{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.button:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 #hiddenRow{/*created a hidden div that lays ontop of the hero div. # insead of . because hiddenContainer is an id*/
   position: absolute;
   top: 0;
@@ -32,7 +41,7 @@
 
 .fadeout{ /*fade in annimation when button is clicked*/
   animation-name: fadeOut;
-  animation-duration: 1s;
+  animation-duration: 1.3s;
   opacity: 0;
 }
 
