@@ -46,7 +46,7 @@
   opacity: 0;
 }
 
-/*-------*/
+/*------- blog heading on cover page------*/
 .blog{
 
   height: 25em;
@@ -55,7 +55,7 @@
 }
 
 
-/*------*/
+/*------projects heading on cover page---------*/
 .projects{
 
   height: 25em;
@@ -63,7 +63,7 @@
   background-image: url("../images/barcelona2.png");
 }
 
-
+/*----------------affects-------------------------------*/
 @keyframes fadeIn {/*keyframe needed for animmation*/
   0% {
     opacity: 0;
