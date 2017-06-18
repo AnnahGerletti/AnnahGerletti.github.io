@@ -20,6 +20,9 @@ body{
     background-position: right top;
   }
 }
+.orange{/*adding accent color to text. wrap the words in a span tag and add a class to later declair in css.*/
+  color: red;
+}
 
 
 /*-------------------Index page-------------*/

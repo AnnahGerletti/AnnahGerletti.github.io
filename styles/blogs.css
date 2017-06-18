@@ -1,5 +1,7 @@
 
-
+.container{
+  margin-left: 5em;
+}
 
 .spacedout{
   letter-spacing: 0.3em;
@@ -14,9 +16,11 @@
 }
 
 .coverImage{
-  height: 25em;
+  height: 30em;
   background-size: cover;
   background-image: url("../images/barcelona5.png");
+  background-position: bottom;
+}
 }
 
 .button{
