@@ -21,7 +21,7 @@ function clearStuff(){
   document.getElementById('equation').textContent = document.getElementById('answer').textContent;
 }
 
-function allClear(){
-  console.log("yep");
-  document.
-}
+// function allClear(){
+//   console.log("yep");
+//   document.
+// }
