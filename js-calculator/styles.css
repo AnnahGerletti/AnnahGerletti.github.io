@@ -1,0 +1,70 @@
+
+.container{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#calculator{
+  height: 450px;
+  width: 320px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  position: relative;
+  border-radius: 10%;
+}
+
+/*top two screens container*/
+#screen{
+  width:85%;
+  height: 60px;
+  background-color: lightgrey;
+  margin: auto;
+  border-radius: 8%;
+  text-align: right;
+}
+
+#answer {
+  height:1em;
+}
+
+#equationScreen p{
+  width:85%;
+  height: 20px;
+  background-color: lightgreen;
+  margin: auto;
+  border-radius: 8%;
+  text-align: right;
+  /*position: relative;*/
+}
+
+
+/*button containers*/
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 250;
+  height: auto;
+  padding: 10%;
+}
+
+button{
+  width: 25%;
+  height: auto;
+  background-color: lightblue;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 20%;
+  margin: auto;
+  font-size: 16px;
+  margin: 0px 0px 6px 0px;
+  flex-grow: 5;
+
+
+
+}

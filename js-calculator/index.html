@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!---Basic Page Needs---------------->
+      <title>Electronic Calculator</title>
+      <meta charset="utf-8">
+    <!---mobile specific metas--------->
+
+    <!--Font----------------------------->
+      <!-- <link href="#" rel="stylesheet"> -->
+    <!---css ----------------------------->
+      <link href="styles.css" rel="stylesheet" type="text/css">
+    <!-- script -------------------------->
+      <script type="text/javascript" src="utilities.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div id="calculator">
+        <!-- main screen that shows the numbers -->
+
+          <div id="screen" class="textRight">
+            <div class="answerBox">
+              <p id="answer"></p>
+            </div>
+
+          <!-- screen that shows the writen equation -->
+            <div id="equationScreen" class="textRight"> <!--can you reference html by its values or types or do you need a class-->
+              <p id="equation"></p>
+            </div>
+          </div>
+
+
+
+          <!-- buttons -->
+          <div class="buttonContainer">
+              <button class="grey" type="button" value="AC" onclick="allClear()">All Clear</button>
+              <button class="grey" type="button" value="CR" onclick="clearStuff()">Clear</button>
+              <button class="grey" type="button" value="percent" onclick="math('%')">%</button>
+              <button class="blue" type="button" value="divide" onclick="math('/')">/</button>
+              <button class="white" type="button" value="seven" onclick="math('7')">7</button>
+              <button class="white" type="button" value="eight" onclick="math('8')">8</button>
+              <button class="white" type="button" value="nine" onclick="math('9')">9</button>
+              <button class="blue" type="button" value="times" onclick="math('*')">x</button>
+              <button class="white" type="button" value="four" onclick="math('4')">4</button>
+              <button class="white" type="button" value="five" onclick="math('5')">5</button>
+              <button class="white" type="button" value="six" onclick="math('6')">6</button>
+              <button class="blue" type="button" value="min" onclick="math('-')">-</button>
+              <button class="white" type="button" value="one" onclick="math('1')">1</button>
+              <button class="white" type="button" value="two" onclick="math('2')">2</button>
+              <button class="white" type="button" value="three" onclick="math('3')">3</button>
+              <button class="blue" type="button" value="plus" onclick="math('+')">+</button>
+              <button class="white" type="button" value="zero" onclick="math('0')">0</button>
+              <button class="white" type="button" value="point" onclick="math('.')">.</button>
+              <button class="blue" type="button" value="equals" onclick="equals()">=</button>
+
+          </div>
+
+
+          </div>
+
+        </div>
+
+  </body>
+</html>
