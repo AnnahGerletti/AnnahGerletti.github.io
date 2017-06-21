@@ -12,6 +12,16 @@
       <link href="styles.css" rel="stylesheet" type="text/css">
     <!-- script -------------------------->
       <script type="text/javascript" src="utilities.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script>
+            $(document).ready(function(){
+              console.log("yep")
+              $("button.red").click(function(){
+                $("p").html(0);
+              });
+            });
+            </script>
+
 
 
 
@@ -36,7 +46,7 @@
 
           <!-- buttons -->
           <div class="buttonContainer">
-              <button class="grey" type="button" value="AC" onclick="allClear()">All Clear</button>
+              <button class="red" type="button" value="AC">All Clear</button>
               <button class="grey" type="button" value="CR" onclick="clearStuff()">Clear</button>
               <button class="grey" type="button" value="percent" onclick="math('%')">%</button>
               <button class="blue" type="button" value="divide" onclick="math('/')">/</button>
@@ -58,9 +68,8 @@
 
           </div>
 
-
+<!-- Need to eventually add a home button and add it to the blog -->
           </div>
-
         </div>
 
   </body>
