@@ -13,14 +13,14 @@
     <!-- script -------------------------->
       <script type="text/javascript" src="utilities.js"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-            <script>
+            <!-- <script>
             $(document).ready(function(){
               console.log("yep")
               $("button.red").click(function(){
                 $("p").html(0);
               });
             });
-            </script>
+            </script> -->
 
 
 
@@ -35,12 +35,12 @@
           <div id="screen" class="textRight">
             <div class="answerBox">
               <p id="answer"></p>
+              <p id="equation"></p>
             </div>
 
           <!-- screen that shows the writen equation -->
-            <div id="equationScreen" class="textRight"> <!--can you reference html by its values or types or do you need a class-->
-              <p id="equation"></p>
-            </div>
+           <!--can you reference html by its values or types or do you need a class-->
+
           </div>
 
 
@@ -48,7 +48,7 @@
           <!-- buttons -->
           <div class="buttonContainer">
               <button class="grey" type="button" value="CR" onclick="clearStuff()">Power</button>
-              <button class="red" type="button" value="AC">AC</button>
+              <button class="red" type="button" value="AC" onclick="allClear()">AC</button>
               <button class="grey" type="button" value="CR" onclick="clearStuff()">CR</button>
               <button class="blue" type="button" value="divide" onclick="math('/')">/</button>
               <button class="white" type="button" value="seven" onclick="math('7')">7</button>

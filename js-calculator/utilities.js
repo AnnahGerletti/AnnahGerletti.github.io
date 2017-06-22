@@ -5,10 +5,11 @@
 
 console.log("I am loaded")
 
-// function stockValue(){
-//   var zero = 0
-//   zero = document.getElementById('equation').textContent + document.getElementById('answer').textContent;
-// }
+function stockValue(){
+  var zero = 0
+  document.getElementById('equation').textContent =zero;
+ document.getElementById('answer').textContent =zero;
+}
 
 // function 1
 function math (char){
@@ -26,10 +27,14 @@ function clearStuff(){
   document.getElementById('equation').textContent = document.getElementById('answer').textContent;
 }
 
-//  function allClear(){
-//    console.log("yep");
-//    stockValue();
-// }
+ function allClear(){
+   console.log("yep");
+   stockValue();
+}
+
+function power(){
+  if()
+}
 
 // $(document).ready(function(){
 //   console.log("yep")
