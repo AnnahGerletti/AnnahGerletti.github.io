@@ -1,2 +1,2 @@
 # AnnahGerletti.github.io
-My very own website. 
+The Phase zero blog built mainly with html and css.
