@@ -7,7 +7,7 @@ First practice blog built mainly with html and css. Tells a story of my learning
 
   ```sh
   git clone 
-  cd reka
+  cd phase_Zero_blog
   ```
 
 
