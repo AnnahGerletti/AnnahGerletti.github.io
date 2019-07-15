@@ -1,16 +1,15 @@
 # phase_Zero_blog
-First practice blog built mainly with html and css. Tells a story of my learning through the first 9 weeks of EDA.
-
+### A technical and emotional blog writen during phase zero, built with html and css.
 # Setup development environment
 
-1. Clone this repository https://github.com/AnnahGerletti/phase_Zero_blog.git
+* Clone this repository 
 
   ```sh
-  git clone 
+  git clone https://github.com/AnnahGerletti/phase_Zero_blog.git
   cd phase_Zero_blog
   ```
 
 
-## NOTE: Unfinished repo, still working on blog
+## NOTE: Plans to update blog with new entries, and add more functionality. 
 
-Will add more to the repo once new features are added.
+Will add more to the README once new features are added.
